@@ -32,7 +32,7 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: black;
+    background-color: #000a1a;
     width: 275px;
     height: 525px;
     border-radius: 15px;
@@ -53,4 +53,15 @@ section #imagem{
 #formulario{
     display: block;
     padding: 15px;
+}
+#formulario h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#formulario p{
+    text-align: center;
+    font-size: 0.7em;
+    
+    
+    
 }
