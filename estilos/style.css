@@ -1,5 +1,53 @@
 @charset "UTF-8";
 
-/*  cores 
-azul   #0075ff
-rosa   #ff0070   */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body,html{
+    background: linear-gradient(to bottom,#0061ff,#60efff);
+    height: 100vh;
+    width: 100vw;  
+}
+main{
+    position: relative;
+    color: white;
+    height: 100vh;
+    width: 100vw;   
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: black;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.504);
+
+}
+section #imagem{
+    display: block;
+    background-image: url(../imagens/pexels-matheus-souza-3693599.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 200px;     
+}
+#formulario{
+    display: block;
+    padding: 15px;
+}
