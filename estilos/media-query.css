@@ -20,11 +20,19 @@
         
         
     }
+    #iemail,#isenha{
+        height: 83%;
+        width: 92%;       
+    }
+    section#login{
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     section#login{
         width: 950px;
+        height: 500px;
     }
     div#imagem{
         float: left;
@@ -37,8 +45,11 @@
     }
     #formulario p{
         text-align: center;
-        font-size: 1em;
+        font-size: 1em;      
+    }
+    #iemail,#isenha{
         
-        
+        height: 82%;
+        width: 92%;   
     }
 }
