@@ -105,7 +105,7 @@ form label{
     height: 40px;
     margin: 10px 0px;
     border-radius: 15px;
-    background-color: #008e9d;
+    background-image: linear-gradient(to bottom,#1770ff,#00a8bb);
     
     
 }
